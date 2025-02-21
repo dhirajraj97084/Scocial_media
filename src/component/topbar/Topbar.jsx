@@ -10,8 +10,8 @@ import { IoNotifications } from "react-icons/io5"
 
 function Topbar() {
   return (
-    <div className='top-0 sticky z-50' >
-      <div className="main  px-4 md:px-8 lg:px-10 h-14 shadow-xl bg-white flex justify-between items-center">
+    <div className='top-0 sticky z-50 border-b-2' >
+      <div className="main  px-4 md:px-8 lg:px-10 h-14 md:shadow-xl bg-white flex justify-between items-center">
         <div className="left flex md:gap-4 items-center ">
            <img className='md:h-14 h-8 m-2' src="/img/dt.jpeg" alt="img" />
            <div className="serchbar bg-gray-200 p-2 rounded-xl">

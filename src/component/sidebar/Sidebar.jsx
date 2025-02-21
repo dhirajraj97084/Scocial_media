@@ -5,7 +5,7 @@ import { IoSettings } from "react-icons/io5";
 function Sidebar() {
     return (
         <div>
-            <div className="main_box">
+            <div className="main_box hidden md:block">
                 <div className="sub w-72 bg-white shadow-xl py-4 fixed">
                     <div className="top flex py-3 justify-between px-5 items-center">
                         <h1 className='text-2xl font-bold'>Marketplace</h1>
@@ -15,7 +15,7 @@ function Sidebar() {
                         <div className="serchbar bg-gray-200 p-2 rounded-2xl px-4 ">
                             <button className='flex justify-center gap-2 '>
                                 <div className="icon flex items-center "><IoIosSearch className='text-2xl' /></div>
-                                <input type="text" className='bg-gray-200 text-black hidden lg:block placeholder-black outline-none' placeholder='Search Marketplace' />
+                                <input type="text" className='bg-gray-200 text-black  placeholder-black outline-none' placeholder='Search Marketplace' />
                             </button>
                         </div>
                     </div>
