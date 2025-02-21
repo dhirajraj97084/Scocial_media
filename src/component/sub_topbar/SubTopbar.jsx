@@ -5,7 +5,7 @@ import { IoIosSearch } from 'react-icons/io'
 function SubTopbar() {
     return (
         <div className='bg-white'>
-            <div className="main md:hidden flex justify-between py-3 shadow-xl items-center px-5">
+            <div className="main md:hidden flex justify-between py-3 gap-4 shadow-xl items-center px-5">
                 <div className="img">
                     <img className='h-10 rounded-full w-10' src="https://portfolio-react-kappa-seven-18.vercel.app/pt.jpg" alt="img" />
                 </div>
