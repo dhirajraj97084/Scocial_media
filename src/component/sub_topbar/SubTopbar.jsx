@@ -7,7 +7,7 @@ function SubTopbar() {
         <div className='bg-white'>
             <div className="main md:hidden flex justify-between py-3 gap-3 shadow-xl items-center px-3">
                 <div className="img">
-                    <img className='h-10 rounded-full w-10' src="https://portfolio-react-kappa-seven-18.vercel.app/pt.jpg" alt="img" />
+                    <img className='h-8 rounded-full w-8' src="https://portfolio-react-kappa-seven-18.vercel.app/pt.jpg" alt="img" />
                 </div>
                 <div className="serchbar bg-gray-200 p-2 rounded-xl">
                     <button className='flex justify-center gap-2 '>
